@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.addrWrapper
+{
+    width: 30vw;
+    height: 15vh;
+    border-radius: 0.5vw;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5%;
+    scale: 0.75;
+    transform: scale(0.75);
+}
+
+.addr
+{
+    width: 26vw;
+    height: 15vh;
+    display: grid;
+    place-content: center;
+    margin: none;
+    overflow: hidden;
+}
+
+.addrCopy
+{
+    height: 15vh;
+    width: 4vw;
+    display: grid;
+    place-content: center;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 0.5%;
+}
+
+.addrText
+{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2vw;
+    width: 15vw;
+    overflow: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    text-align: center;
+}
+
+.addrText::-webkit-scrollbar
+{
+  display: none;
+}
+
+body
+{
+   height: 100vh;
+   width: 100vw;
+   display: grid;
+   place-content: center;
+   overflow-x: hidden;
+   background-color: #ffffff;
+   overflow: hidden;
+   text-align: center;
+}
+
+.scroll-icon
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.clipboard-icon
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-info
+{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 20vh;
+    background-color: white;
+    margin-left: -1vw;
+    display: grid;
+    place-content: center;
+}
+
+.bottom-info-content
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    height: 100%;
+}
+
+.social-media-icon
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 5vw;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.main-text
+{
+    color: rgb(76, 76, 250);
+    font-family: 'Monoton', cursive;
+    font-size: 15vw;
+}
+/*
+@media only screen and (max-width: 600px) 
+{
+    .addrWrapper
+    {
+       transform: scale(2);
+       scale: 2;
+    }
+
+    .addrText
+    {
+    font-size: 5vw;
+    }
+}
+*/
